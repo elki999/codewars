@@ -1,0 +1,4 @@
+function fakeBin(x){
+    const numbers = x.split('').map(num => num <5 ? '0' : '1').join('')
+    return(numbers)
+  }
